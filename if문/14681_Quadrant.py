@@ -1,6 +1,5 @@
 #x, y = map(int, input().split())
 
-
 x = int(input("x좌표 입력:"))
 y = int(input("y좌표 입력:"))
 
