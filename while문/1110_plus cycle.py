@@ -1,4 +1,6 @@
-N = int(input())
+import sys
+
+N = int(sys.stdin.readline())
 check = N
 new_num = 0
 count = 0
