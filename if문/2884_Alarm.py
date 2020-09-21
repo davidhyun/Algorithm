@@ -1,21 +1,21 @@
-h, m = map(int, input().split())
+# h, m = map(int, input().split())
+#
+# if m >= 45:
+#     print(h, m-45)
+# elif m < 45:
+#     if h <= 0:
+#         print(23, m+15)
+#     else:
+#         print(h-1, m+15)
 
-if m >= 45:
-    print(h, m-45)
-elif m < 45:
-    if h <= 0:
-        print(23, m+15)
-    else:
-        print(h-1, m+15)
 
-"""
 h, m = map(int, input().split())
 x = h*60 + m-45
 print((x//60)%24, x%60)
-"""
 
-y = -15
-print(y%60) # 45, -15 = 1 * 60 + 45(나머지)
+
+# y = -15
+# print(y%60) # 45, -15 = 1 * 60 + 45(나머지)
 
 """
 Python에서는 % 연산자의 음수계산에서 나머지는 나누는 수의 부호와 동일합니다.
