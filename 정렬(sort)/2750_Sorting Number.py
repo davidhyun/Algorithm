@@ -16,5 +16,6 @@ sys.stdout.write("\n".join(map(str, l))) # sys.stdout.write()는 print()의 자�
 ",".join("abcd") # 'a,b,c,d'
 
 join 함수는 리스트나 튜플도 입력받을 수 있다
+리스트 각각의 원소들 사이에 "\n" 삽입한다
 ",".join(['a','b','c','d']) # 'a,b,c,d'
 """
