@@ -47,7 +47,7 @@ for _ in range(N):
 # 스택은 LIFO(Last In First Out)를 따른다. 즉, 가장 최근에 스택에 추가한 항목이 가장 먼저 제거될 항목이다
 # 클래스를 활용한 스택 구현
 
-class stack:
+class Stack:
     def __init__(self):
         self.items = []
     def push(self, item):
@@ -57,7 +57,7 @@ class stack:
     def isEmpty(self):
         return not self.items
         
-stk = stack()           # stack 객체 생성
+stk = Stack()           # stack 객체 생성
 print(stk)              # stack object 생성 확인
 print(stk.isEmpty())    # 처음에는 아무것도 들어있지 않으므로 True 출력
 stk.push(1)             # stk에 1을 넣음
