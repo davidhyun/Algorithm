@@ -6,11 +6,9 @@
 
 ### (3) Greedy Algorithm(탐욕 알고리즘)
 
-### (3) Dynamic Programming(동적계획법)
+### (4) Dynamic Programming(동적계획법)
 
-
-
-
+<br/>
 
 ### 모듈(Module)
 
