@@ -5,6 +5,7 @@ from collections import deque, Counter
 def bfs(x,y, cnt):
     q = deque()
     q.append((x,y))
+    visited[x][y] = cnt
 
     direction = [[-1,0],[1,0],[0,-1],[0,1]] # 상하좌우
     while q:
@@ -36,11 +37,7 @@ for i in range(size):
             bfs(i,j, cnt)
 
 print(cnt)
-print(visited)
-ans = [element for array in visited for element in array]
-
-# if 0 in list(Counter(ans):
-    list(Counter(ans)
-print(list(Counter(ans)))
-
-# print(list(Counter(ans).values()))
+# print(visited)
+visited_1d = [element for array in visited for element in array if element > 0]
+answer = sorted(list(Counter(visited_1d).values()))
+print('\n'.join(map(str, answer)))
