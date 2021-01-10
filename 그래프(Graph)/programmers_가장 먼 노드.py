@@ -1,7 +1,7 @@
 from collections import deque
 
 
-def solution(n, vertex):
+def bfs(n, vertex):
     adjacent_nodes = [[] for _ in range(n+1)] # 인접 노드 리스트(첫번째 인덱스는 1부터 사용)
     for i, j in vertex:
         adjacent_nodes[i].append(j)
@@ -28,4 +28,4 @@ def solution(n, vertex):
 
 n = 6
 vertex = [[3, 6], [4, 3], [3, 2], [1, 3], [1, 2], [2, 4], [5, 2]]
-print(solution(n=6, vertex=vertex))
+print(bfs(6, vertex))
