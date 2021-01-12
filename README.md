@@ -1,12 +1,24 @@
 # Algorithm Study
 
-### (1) Stack(스택), Queue(큐), Deque(덱) 자료구조
+### (1) 정렬(Sorting)
 
-### (2) BFS(너비우선탐색), DFS(깊이우선탐색)
+### (2) 스택(Stack) / 큐(Queue), 덱(Deque) 자료구조
 
-### (3) Greedy Algorithm(탐욕 알고리즘)
+### (3) 해시(Hash) 자료구조
 
-### (4) Dynamic Programming(동적계획법)
+### (4) 그래프(Graph) 자료구조
+
+### (5) 힙(Heap) 자료구조
+
+### (6) 이분 탐색(Binary Search)
+
+### (7) 완전 탐색(Brute Force)
+
+### (8) 너비 우선탐색(BFS) / 깊이 우선탐색(DFS)
+
+### (9) 탐욕 알고리즘(Greedy Algorithm)
+
+### (10) 동적 계획법(Dynamic Programming)
 
 <br/>
 
