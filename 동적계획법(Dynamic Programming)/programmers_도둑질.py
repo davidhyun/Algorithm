@@ -19,5 +19,6 @@ def solution(money):
 
     return max(max(dp1), max(dp2))
 
+
 money = [1,2,3,1]
 print(solution(money))
