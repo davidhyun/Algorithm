@@ -6,9 +6,16 @@
 
 N = int(input())
 
-result = 0
-for i , value in enumerate(range(0, 100, 6)):
-    result += value
-    if N < result:
-        print(i+1)
-        break
+i = 1
+room_last_num = 1
+room_size = 6
+if N == 1:
+    print(1)
+else:
+    while True:
+        i += 1
+        room_last_num += room_size
+        if N <= room_last_num:
+            print(i)
+            break
+        room_size += 6
