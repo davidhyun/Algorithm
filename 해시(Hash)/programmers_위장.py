@@ -5,6 +5,7 @@ def solution(clothes):
 
     answer = 1
     for key in clothes_dict.keys():
+        # (a + 1)(b + 1)(c + 1) - 1 = (a + b + c) + (ab + bc + ca) + abc
         # (모자 개수 + 1) * (안경 개수 + 1) * (신발 개수 + 1)
         answer = answer * (len(clothes_dict[key]) + 1)
 
@@ -17,6 +18,7 @@ def solution2(clothes):
 
     answer = 1
     for key in each_key_count:
+        # (a + 1)(b + 1)(c + 1) - 1 = (a + b + c) + (ab + bc + ca) + abc
         # (모자 개수 + 1) * (안경 개수 + 1) * (신발 개수 + 1)
         answer *= (each_key_count[key] + 1)
 
